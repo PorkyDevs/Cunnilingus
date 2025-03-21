@@ -1,0 +1,55 @@
+# Cunnilingus Encrypter
+
+Este proyecto es un encriptador de texto basado en la palabra "Cunnilingus". Si una palabra termina en una de las letras de "Cunnilingus", se mantiene la letra. Si no, la palabra se reemplaza por "Cunnilingus".
+
+## Instalación
+
+Asegúrate de tener instalado [Node.js](https://nodejs.org/) y TypeScript. Luego, instala las dependencias necesarias:
+
+```sh
+npm install -g ts-node
+```
+
+O si prefieres instalarlo solo en el proyecto:
+
+```sh
+npm install --save-dev ts-node
+```
+
+## Uso
+
+Para ejecutar el programa, usa el siguiente comando:
+
+```sh
+npx ts-node index.ts
+```
+
+Si `ts-node` está instalado globalmente, también puedes ejecutar:
+
+```sh
+ts-node index.ts
+```
+
+Luego, introduce un texto y el encriptador devolverá la versión encriptada.
+
+## Ejemplo
+
+Entrada:
+
+```sh
+Hola que tal
+```
+
+Salida:
+
+```sh
+Cunnilingus Cunnilingus l
+```
+
+## Configuración de TypeScript
+
+Este proyecto incluye un archivo `tsconfig.json` con las configuraciones necesarias para ejecutar TypeScript correctamente.
+
+## Licencia
+
+Este proyecto es de uso libre. ¡Diviértete encriptando cerdo! 🎭
